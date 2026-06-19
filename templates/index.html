@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penelusuran Regulasi Digital - Hukum AI</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Cari Hukum Digital</h1>
+        <p>Sistem Temu Kembali Informasi & Analisis Regulasi AI</p>
+    </div>
+
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="queryInput" placeholder="Ketik permasalahan hukum Anda di sini (misal: aturan terkait perlindungan data pribadi)...">
+            <button onclick="cariHukum()">Telusuri</button>
+        </div>
+
+        <div class="loading" id="loadingText">
+            Tunggu yah... 
+        </div>
+
+        <div class="result-container" id="resultBox">
+            <h3>Tinjauan Hukum (AI Generated)</h3>
+            <div class="answer" id="aiAnswer"></div>
+            
+            <h3>Landasan Regulasi</h3>
+            <div class="sources" id="sourceList"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
