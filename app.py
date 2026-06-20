@@ -13,6 +13,7 @@ from google.genai import types
 # 1. KONFIGURASI
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+print("API KEY =", GEMINI_API_KEY)
 
 app = Flask(__name__)
 client = genai.Client(api_key=GEMINI_API_KEY)
@@ -127,14 +128,29 @@ def tanya():
         Pertanyaan:
         {kueri_user}
         """
-        response_gen = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
-            # [REVISI DOSEN] Eksplorasi fitur temperatur
-            config=types.GenerateContentConfig(
-                temperature=0.2 # Temperature rendah agar jawaban hukum tidak halusinasi
-            )
-        )
+        response_gen = None
+
+        for i in range(5):
+            try:
+                response_gen = client.models.generate_content(
+                    model="gemini-2.5-flash",
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        temperature=0.2
+                    )
+                )
+                break
+
+            except Exception as e:
+                print(f"Generate gagal percobaan {i+1}")
+                print(e)
+                time.sleep(5)
+
+        if response_gen is None:
+            return jsonify({
+                "error": "Model Gemini 2.5 Flash sedang mengalami high demand. Silakan coba lagi beberapa saat."
+            }), 503
+
         print(f"  -> Output Jawaban AI: {response_gen.text[:100]}... (dipotong)")
         print("="*50 + "\n")
 
