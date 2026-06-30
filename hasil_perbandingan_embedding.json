@@ -1,0 +1,375 @@
+[
+  {
+    "kueri": "Apa hukuman menyebarkan konten asusila secara online?",
+    "ground_truth": [
+      "Pasal 27",
+      "Pasal 45"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 11.752,
+      "pasal_terdeteksi": [
+        "Pasal 27",
+        "Pasal 45"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Berdasarkan Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE) sebagaimana telah diubah terakhir dengan Undang-Undang Nomor 19 Tahun 2016, hukuman bagi penyebaran konten asusila secara online diatur dalam pasal-pasal berikut:\n\n1.  **Pasal 27 ayat (1) UU ITE:**\n    Ini adalah pasal yang melarang perbuatan tersebut. Bunyinya:\n    \"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan.\"\n\n2.  **Pasal 45 ayat (1) UU ITE (sebagai sanksi dari Pasal 27 ayat 1):**\n    Ini adalah pasal yang mengatur sanksi pidana untuk pelanggaran Pasal 27 ayat (1). Bunyinya:\n    \"Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 27 ayat (1) dipidana dengan pidana penjara paling lama **6 (enam) tahun** dan/atau denda paling banyak **Rp1.000.000.000,00 (satu miliar rupiah)**.\"\n\n**Poin-poin penting:**\n\n*   **Unsur \"Dengan Sengaja dan Tanpa Hak\":** Pelaku harus terbukti menyebarkan konten tersebut dengan niat (sengaja) dan tidak memiliki hak atau izin untuk melakukannya.\n*   **Cakupan \"Menyebarkan\":** Istilah \"mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya\" sangat luas, mencakup mengunggah ke media sosial, mengirim melalui aplikasi pesan, menyimpan di cloud yang bisa diakses publik, atau bentuk penyebaran lainnya.\n*   **\"Muatan yang Melanggar Kesusilaan\":** Frasa ini merujuk pada konten pornografi atau cabul.\n\n**Selain UU ITE, tindakan penyebaran konten asusila juga dapat dijerat dengan:**\n\n*   **Undang-Undang Nomor 44 Tahun 2008 tentang Pornografi:** Undang-undang ini mengatur lebih spesifik tentang larangan produksi, pembuatan, penyebarluasan, penggunaan, hingga kepemilikan materi pornografi. Sanksi pidana dalam UU Pornografi bisa lebih berat, tergantung pada peran dan skala perbuatan (misalnya, membuat, menawarkan, menyebarluaskan, memperdagangkan, dan memiliki).\n\n**Penting untuk diingat:**\nHukum di Indonesia sangat serius dalam menindak penyebaran konten asusila, terutama yang melibatkan anak-anak. Jika ada keraguan atau pertanyaan lebih lanjut terkait kasus spesifik, sangat disarankan untuk berkonsultasi dengan ahli hukum."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 3.042,
+      "jumlah_token_konteks": 763,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 45",
+          "similarity": 0.7400581063979959
+        },
+        {
+          "pasal": "Pasal 27",
+          "similarity": 0.7367983116600896
+        },
+        {
+          "pasal": "Pasal 45A",
+          "similarity": 0.7108957192747665
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 45"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Hukuman menyebarkan konten asusila secara online adalah pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah), sebagaimana diatur dalam Pasal 45 ayat (1)."
+    }
+  },
+  {
+    "kueri": "Ringkas semua jenis pelanggaran yang diatur dalam Pasal 27 UU ITE",
+    "ground_truth": [
+      "Pasal 27"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 8.806,
+      "pasal_terdeteksi": [
+        "Pasal 27"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Pasal 27 Undang-Undang Informasi dan Transaksi Elektronik (UU ITE) mengatur tentang berbagai jenis pelanggaran terkait distribusi, transmisi, atau pembuatan akses terhadap Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan tertentu. Ringkasan jenis-jenis pelanggaran tersebut adalah sebagai berikut:\n\n1.  **Pelanggaran Kesusilaan (Ayat 1)**: Setiap orang yang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang **melanggar kesusilaan** (misalnya, konten pornografi).\n\n2.  **Perjudian (Ayat 2)**: Setiap orang yang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan **perjudian** (misalnya, promosi atau akses ke situs judi online).\n\n3.  **Penghinaan dan/atau Pencemaran Nama Baik (Ayat 3)**: Setiap orang yang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan **penghinaan dan/atau pencemaran nama baik**.\n\n4.  **Pemerasan dan/atau Pengancaman (Ayat 4)**: Setiap orang yang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan **pemerasan dan/atau pengancaman**.\n\nSingkatnya, Pasal 27 UU ITE mengkriminalisasi tindakan penyebaran konten elektronik yang berisi:\n*   Konten asusila\n*   Perjudian\n*   Pencemaran nama baik\n*   Pemerasan atau pengancaman"
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 3.277,
+      "jumlah_token_konteks": 314,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 27",
+          "similarity": 0.7817822195924333
+        },
+        {
+          "pasal": "Pasal 27B",
+          "similarity": 0.7602225016215146
+        },
+        {
+          "pasal": "Pasal 28",
+          "similarity": 0.7485679703484182
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 27"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Berdasarkan Pasal 27, jenis pelanggaran yang diatur adalah sebagai berikut:\n1.  Menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum (Pasal 27 ayat 1).\n2.  Mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian (Pasal 27 ayat 2)."
+    }
+  },
+  {
+    "kueri": "Apa bedanya Pasal 27A dan Pasal 27B?",
+    "ground_truth": [
+      "Pasal 27A",
+      "Pasal 27B"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 17.509,
+      "pasal_terdeteksi": [
+        "Pasal 27",
+        "Pasal 27A",
+        "Pasal 45B",
+        "Pasal 45A",
+        "Pasal 27B"
+      ],
+      "is_correct": true,
+      "is_hallucination": true,
+      "jawaban": "Pasal 27A dan Pasal 27B adalah dua pasal baru dalam Undang-Undang Nomor 1 Tahun 2024 tentang Perubahan Kedua atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE), yang mulai berlaku pada **2 Januari 2024**. Kedua pasal ini merupakan hasil revisi untuk memperjelas dan membatasi ruang lingkup tindak pidana yang sebelumnya tercakup dalam Pasal 27 ayat (3) dan (4) UU ITE lama.\n\nBerikut adalah perbedaan utama antara Pasal 27A dan Pasal 27B:\n\n---\n\n### **Pasal 27A UU ITE (UU 1/2024)**\n\n*   **Tindakan Pidana yang Diatur:** Mengatur mengenai **penyerangan kehormatan atau nama baik seseorang** melalui informasi atau dokumen elektronik. Ini adalah pengganti dari ketentuan pencemaran nama baik yang dulu ada di Pasal 27 ayat (3) UU ITE.\n*   **Bunyi Pasal (Pokok):**\n    > Setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum diatur dalam Pasal 45A ayat (3) yang merujuk pada ketentuan Pasal 27A.\n*   **Elemen Kunci:**\n    *   **Menyerang kehormatan atau nama baik:** Tindakan yang merendahkan martabat atau reputasi seseorang.\n    *   **Dengan cara menuduhkan suatu hal:** Ada tuduhan spesifik yang dilontarkan.\n    *   **Maksud supaya diketahui umum:** Pelaku memiliki niat agar tuduhan tersebut tersebar luas di publik.\n*   **Sifat Delik:** Merupakan **delik aduan absolut**. Artinya, proses hukum hanya dapat dimulai jika ada laporan atau aduan dari korban langsung yang merasa kehormatan atau nama baiknya diserang. Jika korban mencabut aduannya, proses hukum harus dihentikan.\n*   **Pengecualian Penting (sesuai Penjelasan Pasal 27A):** **Tidak termasuk** perbuatan:\n    *   Kritik.\n    *   Saran.\n    *   Masukan.\n    *   Evaluasi.\n    *   Survei.\n    *   Pernyataan pendapat.\n    *   Hasil riset.\n    *   Atau penyampaian fakta dengan kepentingan umum.\n    Ini adalah perubahan krusial untuk melindungi kebebasan berekspresi dan mencegah kriminalisasi kritik.\n*   **Ancaman Pidana (Pasal 45A ayat (3)):** Pidana penjara paling lama 2 (dua) tahun dan/atau denda paling banyak Rp 400.000.000,00 (empat ratus juta rupiah).\n\n---\n\n### **Pasal 27B UU ITE (UU 1/2024)**\n\n*   **Tindakan Pidana yang Diatur:** Mengatur mengenai **pengancaman dan/atau pemaksaan** yang dilakukan melalui informasi atau dokumen elektronik, dengan tujuan untuk membuat orang lain melakukan atau tidak melakukan sesuatu. Ini adalah pengganti dari ketentuan pemerasan/pengancaman yang dulu ada di Pasal 27 ayat (4) UU ITE.\n*   **Bunyi Pasal (Pokok):**\n    > Setiap Orang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi ancaman kekerasan atau menakut-nakuti yang ditujukan secara pribadi dengan maksud untuk memperoleh keuntungan atau merugikan orang lain, atau dengan maksud untuk memaksa orang lain melakukan atau tidak melakukan sesuatu. (Dirujuk dalam Pasal 45B).\n*   **Elemen Kunci:**\n    *   **Ancaman kekerasan atau menakut-nakuti:** Mengirimkan konten yang bersifat mengancam fisik, mental, atau keselamatan.\n    *   **Ditujukan secara pribadi:** Ancaman ditujukan kepada orang tertentu, bukan secara umum.\n    *   **Maksud untuk memperoleh keuntungan/merugikan orang lain:** Ada motif ekonomi atau motif lain untuk merugikan korban.\n    *   **Maksud untuk memaksa orang lain melakukan atau tidak melakukan sesuatu:** Pelaku ingin korban melakukan atau tidak melakukan tindakan tertentu di bawah tekanan.\n*   **Sifat Delik:** Merupakan **delik biasa**. Artinya, proses hukum dapat dimulai meskipun tidak ada laporan dari korban, atau jika laporan dicabut, proses hukum tetap dapat dilanjutkan jika penyidik memiliki cukup bukti.\n*   **Ancaman Pidana (Pasal 45B):** Pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp 750.000.000,00 (tujuh ratus lima puluh juta rupiah).\n\n---\n\n### **Tabel Perbandingan Utama**\n\n| Fitur              | Pasal 27A UU ITE (UU 1/2024)                    | Pasal 27B UU ITE (UU 1/2024)                       |\n| :----------------- | :---------------------------------------------- | :------------------------------------------------- |\n| **Inti Perbuatan** | Penyerangan kehormatan/nama baik (mirip pencemaran nama baik) | Pengancaman dan/atau pemaksaan                     |\n| **Tujuan Pelaku**  | Agar tuduhan/serangan diketahui umum            | Memaksa orang lain melakukan/tidak melakukan sesuatu, atau untuk keuntungan/kerugian |\n| **Sifat Delik**    | **Delik Aduan Absolut**                         | **Delik Biasa**                                    |\n| **Pengecualian**   | Mengecualikan kritik, saran, fakta demi kepentingan umum, dll. | Tidak ada pengecualian spesifik terkait kritik.    |\n| **Ancaman Pidana** | Penjara maks. 2 tahun, denda maks. Rp 400 juta  | Penjara maks. 4 tahun, denda maks. Rp 750 juta     |\n| **Fokus**          | Reputasi dan kehormatan individu               | Kebebasan kehendak dan keamanan individu dari paksaan/ancaman |\n\n**Kesimpulan:**\n\nPerbedaan paling fundamental antara Pasal 27A dan Pasal 27B terletak pada **jenis perbuatan yang dikriminalisasi** (serangan kehormatan vs. pengancaman/pemaksaan) dan **sifat deliknya** (delik aduan absolut vs. delik biasa). Pasal 27A bertujuan melindungi reputasi dengan batasan ketat untuk kritik, sementara Pasal 27B bertujuan melindungi individu dari tekanan dan ancaman yang bersifat memaksa melalui dunia maya."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 7.079,
+      "jumlah_token_konteks": 243,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 27A",
+          "similarity": 0.7552566031508803
+        },
+        {
+          "pasal": "Pasal 27B",
+          "similarity": 0.7465147358187765
+        },
+        {
+          "pasal": "Pasal 27",
+          "similarity": 0.7266537971291182
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 27A",
+        "Pasal 27B"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Berdasarkan konteks hukum yang tersedia:\n\nPasal 27A mengatur mengenai tindakan \"Setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik.\" Fokus dari Pasal 27A adalah penyerangan kehormatan atau nama baik melalui informasi elektronik.\n\nSementara itu, Pasal 27B mengatur mengenai tindakan \"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk: a. memberikan suatu barang... atau b. memberi utang...\" (Pasal 27B ayat 1) atau \"dengan ancaman pencemaran atau dengan ancaman akan membuka rahasia, memaksa orang supaya: a. memberikan suatu barang... atau b. memberi utang...\" (Pasal 27B ayat 2). Fokus dari Pasal 27B adalah pemerasan atau pengancaman yang dilakukan melalui informasi elektronik untuk mendapatkan keuntungan secara melawan hukum.\n\nPerbedaan utamanya adalah:\n*   **Tujuan/Maksud:** Pasal 27A bertujuan untuk menyerang kehormatan atau nama baik orang lain agar diketahui umum. Sedangkan Pasal 27B bertujuan untuk menguntungkan diri sendiri atau orang lain secara melawan hukum dengan cara memaksa orang lain.\n*   **Modus Operandi:** Pasal 27A dilakukan dengan menuduhkan suatu hal. Sedangkan Pasal 27B dilakukan dengan mendistribusikan/mentransmisikan informasi elektronik disertai ancaman (kekerasan, pencemaran, atau membuka rahasia) untuk memaksa korban melakukan sesuatu (memberikan barang, memberi utang, dll.)."
+    }
+  },
+  {
+    "kueri": "Apakah mengancam orang lewat WhatsApp bisa dipidana?",
+    "ground_truth": [
+      "Pasal 45B",
+      "Pasal 29"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 23.231,
+      "pasal_terdeteksi": [
+        "Pasal 335",
+        "Pasal 45B",
+        "Pasal 29",
+        "Pasal 368",
+        "Pasal 336"
+      ],
+      "is_correct": true,
+      "is_hallucination": true,
+      "jawaban": "Ya, **mengancam orang lewat WhatsApp bisa dipidana** berdasarkan Undang-Undang Informasi dan Transaksi Elektronik (UU ITE) serta Kitab Undang-Undang Hukum Pidana (KUHP).\n\nBerikut penjelasannya:\n\n1.  **Berdasarkan UU ITE:**\n    *   **Pasal 29 UU ITE:** \"Setiap orang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi ancaman kekerasan atau menakut-nakuti yang ditujukan secara pribadi.\"\n    *   **Penjelasan:** Pesan WhatsApp termasuk dalam kategori \"Informasi Elektronik\" dan/atau \"Dokumen Elektronik.\" Jika pesan tersebut berisi ancaman kekerasan atau tindakan menakut-nakuti yang ditujukan kepada seseorang secara spesifik, maka pelaku dapat dijerat dengan pasal ini.\n    *   **Sanksi Pidana:** Pasal 45B UU ITE (merupakan turunan dari Pasal 29) menyebutkan bahwa setiap orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama **4 (empat) tahun** dan/atau denda paling banyak **Rp 750.000.000,00 (tujuh ratus lima puluh juta rupiah)**.\n\n2.  **Berdasarkan KUHP (Kitab Undang-Undang Hukum Pidana):**\n    Meskipun UU ITE secara spesifik mengatur ancaman melalui media elektronik, tindakan ancaman itu sendiri juga diatur dalam KUHP, terutama jika ancaman tersebut mengandung unsur pidana yang lebih berat, seperti:\n    *   **Pasal 335 KUHP (Perbuatan Tidak Menyenangkan):** Meskipun pasal ini sering disalahgunakan dan telah melalui beberapa putusan MK yang mempersempit ruang lingkupnya, namun esensinya mengenai tindakan yang dapat menimbulkan rasa takut atau terganggu bisa relevan, terutama jika diikuti dengan unsur-unsur lain.\n    *   **Pasal 336 KUHP (Pengancaman dengan Kekerasan):** Jika ancaman tersebut disertai dengan ancaman kekerasan fisik atau perbuatan yang membahayakan jiwa atau harta benda, maka Pasal 336 KUHP bisa diterapkan. Sanksinya lebih berat.\n    *   **Pasal 368 dan 369 KUHP (Pemerasan dan Pengancaman):** Jika ancaman melalui WhatsApp dilakukan dengan maksud untuk memperoleh keuntungan bagi diri sendiri atau orang lain secara melawan hukum, atau memaksa seseorang untuk menyerahkan sesuatu, maka bisa masuk kategori pemerasan atau pengancaman dalam KUHP.\n\n**Penting untuk diingat:**\n\n*   **Unsur Kesengajaan:** Untuk dipidana, harus ada unsur kesengajaan dari pengirim pesan untuk mengancam atau menakut-nakuti.\n*   **Target Pribadi:** Ancaman harus ditujukan secara spesifik kepada individu atau kelompok tertentu.\n*   **Bukti:** Tangkapan layar (screenshot) pesan WhatsApp, log percakapan, dan bukti lain yang menunjukkan adanya ancaman sangat penting sebagai alat bukti.\n*   **Konteks:** Penegak hukum akan melihat konteks keseluruhan percakapan untuk menentukan apakah ancaman tersebut serius atau hanya sekadar candaan/emosi sesaat.\n\nJadi, jika Anda menerima ancaman melalui WhatsApp yang serius, Anda memiliki dasar hukum untuk melaporkannya kepada pihak berwenang (Polri) untuk diproses sesuai hukum yang berlaku."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 4.66,
+      "jumlah_token_konteks": 604,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 45B",
+          "similarity": 0.7368430471547653
+        },
+        {
+          "pasal": "Pasal 29",
+          "similarity": 0.7125600676591959
+        },
+        {
+          "pasal": "Pasal 45",
+          "similarity": 0.7051792592243459
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 45B",
+        "Pasal 29"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Ya, mengancam orang lewat WhatsApp bisa dipidana.\n\nBerdasarkan Pasal 45B, Setiap Orang yang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik secara langsung kepada korban yang berisi ancaman kekerasan dan/atau menakut-nakuti sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).\n\nPasal 29 menjelaskan bahwa perbuatan tersebut adalah Setiap Orang dengan sengaja dan tanpa hak Informasi Elektronik dan/atau Dokumen Elektronik secara langsung kepada korban yang berisi ancaman kekerasan dan/atau menakut-nakuti."
+    }
+  },
+  {
+    "kueri": "Bandingkan hukuman untuk pencemaran nama baik vs pemerasan online",
+    "ground_truth": [
+      "Pasal 27A",
+      "Pasal 45",
+      "Pasal 27B"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 15.615,
+      "pasal_terdeteksi": [
+        "Pasal 27",
+        "Pasal 45"
+      ],
+      "is_correct": true,
+      "is_hallucination": true,
+      "jawaban": "Tentu, mari kita bandingkan hukuman untuk pencemaran nama baik online dan pemerasan online berdasarkan Undang-Undang Informasi dan Transaksi Elektronik (UU ITE) Indonesia, dengan merujuk pada perubahan terbaru (UU No. 19 Tahun 2016 dan UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE yang akan berlaku pada Januari 2025).\n\n**Catatan Penting:** Meskipun UU No. 1 Tahun 2024 telah disahkan, ia baru akan berlaku efektif pada Januari 2025. Saat ini, UU No. 19 Tahun 2016 masih menjadi rujukan utama. Namun, dalam konteks pasal yang dibahas di bawah, ketentuan hukuman dalam UU 19/2016 dan UU 1/2024 tidak mengalami perubahan signifikan.\n\n---\n\n### Perbandingan Hukuman Pencemaran Nama Baik Online vs. Pemerasan Online\n\n| Kategori              | Pencemaran Nama Baik Online                                  | Pemerasan Online                                             |\n| :-------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |\n| **Dasar Hukum**       | **Pasal 27 ayat (3) UU ITE**<br>Jo. **Pasal 45 ayat (3) UU No. 19 Tahun 2016**<br>Jo. **Pasal 45 ayat (3) UU No. 1 Tahun 2024** | **Pasal 27 ayat (4) UU ITE**<br>Jo. **Pasal 45 ayat (4) UU No. 19 Tahun 2016**<br>Jo. **Pasal 45 ayat (4) UU No. 1 Tahun 2024** |\n| **Sifat Perbuatan**   | Perbuatan mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan **penghinaan dan/atau pencemaran nama baik**. | Perbuatan mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan **pemerasan dan/atau pengancaman**. |\n| **Tujuan Pelaku**     | Merusak reputasi, kehormatan, atau martabat seseorang di ruang digital. Tidak selalu bertujuan mendapatkan keuntungan materi. | Memaksa orang lain untuk memberikan sesuatu (uang, barang, data pribadi, atau melakukan/tidak melakukan sesuatu) dengan ancaman. Tujuannya adalah keuntungan pribadi atau kerugian bagi korban. |\n| **Unsur Kunci**       | - Tanpa hak<br>- Mendistribusikan/mentransmisikan/membuat dapat diakses<br>- Informasi/dokumen elektronik<br>- Bermuatan **penghinaan dan/atau pencemaran nama baik** | - Tanpa hak<br>- Mendistribusikan/mentransmisikan/membuat dapat diakses<br>- Informasi/dokumen elektronik<br>- Bermuatan **pemerasan dan/atau pengancaman** |\n| **Hukuman Penjara**   | Maksimum **4 (empat) tahun**                                | Maksimum **6 (enam) tahun**                                  |\n| **Hukuman Denda**     | Maksimum **Rp 750.000.000,- (tujuh ratus lima puluh juta rupiah)** | Maksimum **Rp 1.000.000.000,- (satu miliar rupiah)**         |\n| **Catatan Tambahan**  | Hukuman ini telah **diringankan** dari UU ITE awal (UU No. 11/2008) yang semula 6 tahun penjara dan denda Rp 1 miliar. Ini menunjukkan tren untuk tidak terlalu represif pada kasus pencemaran nama baik. | Hukuman ini **tetap sama** sejak UU ITE awal (UU No. 11/2008). Konsistensi ini menunjukkan bahwa pemerasan dan pengancaman dianggap sebagai tindak pidana serius dengan dampak yang lebih langsung dan merusak. |\n\n---\n\n### Analisis Perbandingan:\n\nDari perbandingan di atas, terlihat jelas bahwa **hukuman untuk pemerasan online lebih berat daripada pencemaran nama baik online.**\n\n1.  **Tingkat Keseriusan Perbuatan:**\n    *   **Pencemaran nama baik** umumnya berkaitan dengan kerugian imateriil, yaitu reputasi dan kehormatan. Meskipun dampaknya bisa sangat merusak secara psikologis dan sosial, namun tidak selalu melibatkan kerugian finansial langsung atau paksaan fisik/psikis yang agresif.\n    *   **Pemerasan online** melibatkan unsur **ancaman** dan **paksaan** dengan tujuan mendapatkan keuntungan dari korban, baik materiil maupun non-materiil (misalnya, memaksa melakukan tindakan tertentu). Ini dianggap sebagai tindakan yang lebih agresif, mengganggu kebebasan pribadi, dan seringkali berujung pada kerugian finansial atau bahkan fisik/psikis yang lebih parah bagi korban.\n\n2.  **Dampak Terhadap Korban:**\n    *   Korban pencemaran nama baik mungkin mengalami stigmatisasi sosial, depresi, atau kehilangan kepercayaan.\n    *   Korban pemerasan online, selain dampak psikologis, juga terancam kehilangan harta benda, data pribadi, atau bahkan keselamatan fisik jika ancaman tersebut berujung pada tindakan di dunia nyata.\n\nOleh karena itu, konsistensi hukuman yang lebih tinggi untuk pemerasan online dalam setiap revisi UU ITE mencerminkan bahwa negara memandang tindak pidana ini memiliki derajat bahaya dan potensi kerugian yang lebih besar bagi masyarakat."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 9.114,
+      "jumlah_token_konteks": 755,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 45",
+          "similarity": 0.7428113987638045
+        },
+        {
+          "pasal": "Pasal 45B",
+          "similarity": 0.7051489746303357
+        },
+        {
+          "pasal": "Pasal 45A",
+          "similarity": 0.6924524948933624
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 27A",
+        "Pasal 45",
+        "Pasal 27B"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Berdasarkan dokumen hukum yang tersedia:\n\n1.  **Pencemaran Nama Baik**\n    *   Setiap Orang yang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal melalui Sistem Elektronik sebagaimana dimaksud dalam Pasal 27A dipidana dengan pidana penjara paling lama 2 (dua) tahun dan/atau denda paling banyak Rp400.000.000,00 (empat ratus juta rupiah), sebagaimana diatur dalam Pasal 45 ayat (4).\n    *   Dalam hal perbuatan tersebut tidak dapat dibuktikan kebenarannya dan bertentangan dengan apa yang diketahui padahal telah diberi kesempatan untuk membuktikannya (fitnah), dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah), sebagaimana diatur dalam Pasal 45 ayat (6).\n\n2.  **Pemerasan Online**\n    *   Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk memberikan suatu barang atau memberi utang, sebagaimana dimaksud dalam Pasal 27B ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah), sebagaimana diatur dalam Pasal 45 ayat (8).\n    *   Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, dengan ancaman pencemaran atau dengan ancaman akan membuka rahasia, memaksa orang supaya memberikan suatu barang atau memberi utang, sebagaimana dimaksud dalam Pasal 27B ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah), sebagaimana diatur dalam Pasal 45 ayat (10).\n\n**Perbandingan Hukuman:**\n\n*   **Pencemaran nama baik** (Pasal 45 ayat (4)) memiliki hukuman pidana penjara paling lama 2 (dua) tahun dan/atau denda paling banyak Rp400.000.000,00. Jika menjadi **fitnah** (Pasal 45 ayat (6)), hukumannya lebih berat, yaitu pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00.\n*   **Pemerasan online** (Pasal 45 ayat (8) dan Pasal 45 ayat (10)) memiliki hukuman pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00.\n\nBerdasarkan perbandingan tersebut, hukuman untuk pemerasan online memiliki ancaman pidana penjara dan denda yang lebih tinggi dibandingkan dengan pencemaran nama baik, termasuk jika pencemaran nama baik tersebut dikategorikan sebagai fitnah."
+    }
+  },
+  {
+    "kueri": "Apakah penghinaan lewat TikTok termasuk Pasal 27A?",
+    "ground_truth": [
+      "Pasal 27A"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 11.672,
+      "pasal_terdeteksi": [
+        "Pasal 27A",
+        "Pasal 27",
+        "Pasal 310"
+      ],
+      "is_correct": true,
+      "is_hallucination": true,
+      "jawaban": "Ya, **penghinaan lewat TikTok bisa termasuk dalam Pasal 27A Undang-Undang Informasi dan Transaksi Elektronik (UU ITE)**, asalkan memenuhi unsur-unsur yang ditentukan dalam pasal tersebut.\n\nMari kita bedah alasannya:\n\n**Pasal 27A UU ITE** (setelah revisi UU ITE Nomor 1 Tahun 2024 yang berlaku efektif mulai Januari 2025) berbunyi:\n\"Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan informasi elektronik dan/atau dokumen elektronik yang bermuatan penghinaan dan/atau pencemaran nama baik sebagaimana dimaksud dalam Kitab Undang-Undang Hukum Pidana.\"\n\nUnsur-unsur yang harus dipenuhi agar suatu perbuatan penghinaan lewat TikTok dapat dijerat Pasal 27A adalah:\n\n1.  **Setiap Orang:** Ini merujuk pada siapa saja yang melakukannya. Pengguna TikTok adalah \"Setiap Orang\".\n2.  **Dengan sengaja dan tanpa hak:** Pelaku harus memiliki niat untuk mendistribusikan/mentransmisikan konten tersebut dan tidak memiliki dasar hukum untuk melakukannya.\n3.  **Mendistribusikan dan/atau mentransmisikan informasi elektronik dan/atau dokumen elektronik:**\n    *   **TikTok adalah platform elektronik:** Mengunggah video atau teks di TikTok adalah bentuk \"mendistribusikan dan/atau mentransmisikan\" informasi elektronik.\n    *   **Konten TikTok adalah informasi elektronik:** Video, audio, teks, gambar yang diunggah di TikTok termasuk dalam kategori \"informasi elektronik\".\n4.  **Bermuatan penghinaan dan/atau pencemaran nama baik sebagaimana dimaksud dalam Kitab Undang-Undang Hukum Pidana (KUHP):** Ini adalah inti dari pasal ini. Konten yang diunggah di TikTok harus benar-benar mengandung unsur penghinaan atau pencemaran nama baik seperti yang didefinisikan dalam KUHP (misalnya, Pasal 310, 311 KUHP tentang pencemaran nama baik dan fitnah). Artinya, tidak semua kritik atau ungkapan ketidaksukaan otomatis dianggap penghinaan. Harus ada unsur menyerang kehormatan atau nama baik seseorang.\n\n**Poin Penting Tambahan (setelah revisi UU ITE):**\n\n*   **Delik Aduan:** Pasal 27A (sebelumnya Pasal 27 ayat (3)) kini merupakan **delik aduan absolut**. Artinya, proses hukum hanya bisa dilanjutkan jika ada pengaduan resmi dari korban secara langsung. Jika korban tidak mengadu, atau mencabut aduannya, proses hukum tidak dapat dilanjutkan atau akan dihentikan. Ini berbeda dengan sebelumnya yang merupakan delik biasa (siapa pun bisa melaporkan).\n*   **Merujuk KUHP:** Penjelasan tegas \"sebagaimana dimaksud dalam Kitab Undang-Undang Hukum Pidana\" memastikan bahwa definisi dan kriteria penghinaan/pencemaran nama baik harus mengacu pada KUHP, bukan tafsir yang terlalu luas.\n\n**Kesimpulan:**\n\nYa, jika seseorang mengunggah konten (video, teks, audio) di TikTok yang secara sah dan terbukti memenuhi unsur-unsur penghinaan atau pencemaran nama baik menurut KUHP, dan dilakukan dengan sengaja serta tanpa hak, maka perbuatannya dapat dijerat dengan Pasal 27A UU ITE. Namun, proses hukumnya hanya bisa berjalan jika korban yang merasa dirugikan secara langsung mengajukan aduan."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 5.428,
+      "jumlah_token_konteks": 243,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 27A",
+          "similarity": 0.7494327384898671
+        },
+        {
+          "pasal": "Pasal 27",
+          "similarity": 0.6925144601553398
+        },
+        {
+          "pasal": "Pasal 27B",
+          "similarity": 0.6780785560804575
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 27A"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Ya, penghinaan lewat TikTok dapat termasuk Pasal 27A. Pasal 27A menyebutkan bahwa setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik."
+    }
+  },
+  {
+    "kueri": "Kalau menghina lewat Facebook bagaimana hukumannya?",
+    "ground_truth": [
+      "Pasal 27A",
+      "Pasal 45"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 12.697,
+      "pasal_terdeteksi": [
+        "Pasal 27",
+        "Pasal 45"
+      ],
+      "is_correct": true,
+      "is_hallucination": true,
+      "jawaban": "Jika Anda menghina seseorang lewat Facebook, tindakan tersebut dapat dikategorikan sebagai **penghinaan dan/atau pencemaran nama baik** melalui media elektronik, yang diatur dalam **Undang-Undang Informasi dan Transaksi Elektronik (UU ITE)** dan perubahannya.\n\nBerikut adalah penjelasan mengenai hukumannya:\n\n1.  **Dasar Hukum:**\n    *   **Pasal 27 ayat (3) UU ITE:** \"Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik.\"\n    *   **Pasal 45 ayat (3) UU ITE:** Mengatur sanksi pidana untuk pelanggaran Pasal 27 ayat (3).\n\n2.  **Sanksi Pidana (Berdasarkan UU ITE yang telah diubah dengan UU No. 1 Tahun 2024 tentang Perubahan Kedua atas UU ITE):**\n    *   Pelaku dapat dipidana dengan **pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah)**.\n\n3.  **Poin Penting dan Perubahan dalam UU ITE Terbaru (UU No. 1 Tahun 2024):**\n    *   **Delik Aduan:** Pasal 27 ayat (3) UU ITE (tentang penghinaan/pencemaran nama baik) merupakan **delik aduan absolut**. Ini berarti penegak hukum (polisi) hanya bisa memproses kasus ini jika ada pengaduan dari korban langsung yang merasa dirugikan. Jika korban tidak mengadu, maka tidak bisa diproses.\n    *   **Merujuk KUHP:** Definisi \"penghinaan\" dan \"pencemaran nama baik\" dalam UU ITE sekarang secara eksplisit **merujuk pada ketentuan dalam Kitab Undang-Undang Hukum Pidana (KUHP)**. Ini dimaksudkan untuk memberikan kepastian hukum dan mencegah multitafsir, serta memastikan bahwa tidak semua ungkapan ketidaksukaan atau kritik dapat serta merta dianggap sebagai penghinaan yang pidana.\n    *   **Bukan Kritik:** Perlu dibedakan antara \"penghinaan\" atau \"pencemaran nama baik\" dengan \"kritik\" atau \"pendapat yang jujur\". UU ITE terbaru lebih menekankan bahwa kritik yang konstruktif dan berdasarkan fakta tidak boleh dipidanakan.\n    *   **Unsur-Unsur:** Agar suatu postingan dianggap sebagai penghinaan atau pencemaran nama baik, biasanya harus memenuhi unsur-unsur seperti:\n        *   Dilakukan dengan sengaja dan tanpa hak.\n        *   Bertujuan untuk menyerang kehormatan atau nama baik seseorang.\n        *   Ditujukan kepada seseorang atau sekelompok orang tertentu.\n        *   Dapat diakses oleh publik (dalam hal ini, di Facebook).\n        *   Korban merasa dirugikan atau dicemarkan nama baiknya.\n\n**Apa yang harus dilakukan korban?**\n\nJika seseorang merasa dihina atau dicemarkan nama baiknya lewat Facebook:\n1.  **Kumpulkan Bukti:** Segera tangkap layar (screenshot) postingan, komentar, atau pesan yang berisi penghinaan tersebut. Sertakan nama akun, tanggal, dan waktu.\n2.  **Laporkan ke Pihak Berwajib:** Ajukan laporan ke kepolisian terdekat dengan membawa bukti-bukti yang telah dikumpulkan.\n\nSingkatnya, menghina lewat Facebook bisa berujung pada hukuman penjara hingga 4 tahun dan/atau denda hingga Rp750 juta, tetapi harus ada pengaduan dari korban dan memenuhi kriteria \"penghinaan/pencemaran nama baik\" sesuai standar KUHP."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 7.08,
+      "jumlah_token_konteks": 742,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 27A",
+          "similarity": 0.6977413215765529
+        },
+        {
+          "pasal": "Pasal 45",
+          "similarity": 0.6947849078457216
+        },
+        {
+          "pasal": "Pasal 45A",
+          "similarity": 0.6880838811876808
+        }
+      ],
+      "pasal_terdeteksi": [
+        "Pasal 27A",
+        "Pasal 45"
+      ],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Berdasarkan konteks hukum yang tersedia:\n\nPerbuatan menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik (seperti Facebook) sebagaimana dimaksud dalam Pasal 27A, dapat dipidana dengan pidana penjara paling lama 2 (dua) tahun dan/atau denda paling banyak Rp400.000.000,00 (empat ratus juta rupiah) berdasarkan Pasal 45 ayat (4).\n\nKetentuan ini merupakan tindak pidana aduan yang hanya dapat dituntut atas pengaduan korban atau orang yang terkena tindak pidana dan bukan oleh badan hukum, sebagaimana diatur dalam Pasal 45 ayat (5).\n\nPerbuatan tersebut tidak dipidana jika dilakukan untuk kepentingan umum atau karena terpaksa membela diri, sebagaimana diatur dalam Pasal 45 ayat (7).\n\nDalam hal perbuatan tersebut tidak dapat dibuktikan kebenarannya dan bertentangan dengan apa yang diketahui padahal telah diberi kesempatan untuk membuktikannya, pelaku dapat dipidana karena fitnah dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah), berdasarkan Pasal 45 ayat (6)."
+    }
+  },
+  {
+    "kueri": "Apa itu sertifikat elektronik?",
+    "ground_truth": [
+      "DILUAR_CAKUPAN"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 11.647,
+      "pasal_terdeteksi": [],
+      "is_correct": false,
+      "is_hallucination": false,
+      "jawaban": "Berdasarkan Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE) sebagaimana telah diubah dengan Undang-Undang Nomor 19 Tahun 2016, serta diatur lebih lanjut dalam Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik (PP 71/2019), **Sertifikat Elektronik** adalah:\n\nSebuah **dokumen elektronik** yang memuat **identitas Subjek Hukum** (orang perseorangan atau badan hukum) dan berfungsi sebagai **alat bukti autentikasi serta verifikasi** dalam transaksi atau komunikasi elektronik.\n\nSingkatnya, sertifikat elektronik dapat diibaratkan sebagai **\"kartu identitas\" atau \"paspor digital\"** bagi seseorang atau badan hukum di dunia maya.\n\nBerikut adalah poin-poin penting mengenai sertifikat elektronik dalam konteks UU ITE dan peraturan turunannya:\n\n1.  **Fungsi Utama:**\n    *   **Autentikasi Identitas:** Memastikan dan memverifikasi bahwa pihak yang melakukan transaksi atau komunikasi elektronik benar-benar adalah orang atau entitas yang diklaimnya. Ini mencegah penipuan identitas.\n    *   **Mengamankan Tanda Tangan Elektronik (TTE):** Sertifikat elektronik adalah elemen kunci untuk menciptakan Tanda Tangan Elektronik yang sah dan memiliki kekuatan hukum. Dengan sertifikat ini, TTE memiliki jaminan keaslian dan tidak dapat disangkal oleh penandatangan (non-repudiasi).\n    *   **Menjamin Integritas Data:** Memastikan bahwa informasi atau dokumen elektronik tidak diubah atau dimodifikasi setelah ditandatangani atau dikirimkan.\n    *   **Meningkatkan Kepercayaan:** Memberikan dasar kepercayaan yang kuat dalam transaksi elektronik, karena identitas pihak yang terlibat dan keutuhan data terjamin.\n\n2.  **Penerbit:**\n    Sertifikat elektronik diterbitkan oleh **Penyelenggara Sertifikasi Elektronik (PSrE)**. PSrE ini adalah badan hukum yang menyelenggarakan layanan sertifikasi elektronik dan telah terdaftar serta diawasi oleh Kementerian Komunikasi dan Informatika (Kominfo). PSrE bertindak sebagai pihak ketiga yang terpercaya.\n\n3.  **Isi Sertifikat Elektronik:**\n    Sertifikat elektronik umumnya berisi informasi penting seperti:\n    *   Nama lengkap atau identitas Subjek Hukum (pemilik sertifikat).\n    *   Kunci publik Subjek Hukum.\n    *   Nama Penyelenggara Sertifikasi Elektronik (PSrE) yang menerbitkan.\n    *   Masa berlaku sertifikat.\n    *   Nomor seri unik.\n    *   Algoritma yang digunakan.\n\n4.  **Kekuatan Hukum:**\n    Dengan adanya sertifikat elektronik yang diterbitkan oleh PSrE yang diakui, transaksi dan komunikasi digital memiliki **kekuatan hukum yang sah dan mengikat**, setara dengan dokumen fisik yang ditandatangani basah, selama diterbitkan dan digunakan sesuai prosedur yang berlaku.\n\nSingkatnya, sertifikat elektronik adalah fondasi penting untuk keamanan, keabsahan, dan kepercayaan dalam ekosistem digital di Indonesia, terutama untuk kegiatan seperti penandatanganan dokumen secara elektronik, otentikasi identitas, dan berbagai transaksi online yang membutuhkan jaminan hukum."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 3.285,
+      "jumlah_token_konteks": 293,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 27A",
+          "similarity": 0.653877481787238
+        },
+        {
+          "pasal": "Pasal 27B",
+          "similarity": 0.6499224020426401
+        },
+        {
+          "pasal": "Pasal 28",
+          "similarity": 0.6386895759865158
+        }
+      ],
+      "pasal_terdeteksi": [],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Informasi tersebut tidak ditemukan pada dokumen hukum yang tersedia."
+    }
+  },
+  {
+    "kueri": "Bagaimana aturan tanda tangan elektronik?",
+    "ground_truth": [
+      "DILUAR_CAKUPAN"
+    ],
+    "metode_direct": {
+      "waktu_eksekusi_detik": 16.181,
+      "pasal_terdeteksi": [
+        "Pasal 11",
+        "Pasal 1",
+        "Pasal 60",
+        "Pasal 63",
+        "Pasal 59"
+      ],
+      "is_correct": false,
+      "is_hallucination": true,
+      "jawaban": "Aturan mengenai tanda tangan elektronik di Indonesia diatur secara komprehensif dalam **Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (UU ITE)** sebagaimana telah diubah oleh UU Nomor 19 Tahun 2016, serta diperjelas lebih lanjut dalam **Peraturan Pemerintah (PP) Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik**.\n\nBerikut adalah poin-poin penting mengenai aturan tanda tangan elektronik menurut regulasi tersebut:\n\n### 1. Definisi dan Kekuatan Hukum\n\n*   **Definisi (Pasal 1 angka 12 UU ITE):** Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.\n*   **Kekuatan Hukum (Pasal 11 UU ITE):** Tanda Tangan Elektronik memiliki kekuatan hukum dan akibat hukum yang sah sepanjang memenuhi persyaratan yang ditetapkan. Artinya, tanda tangan elektronik secara prinsip memiliki kedudukan yang sama dengan tanda tangan basah (manual) dalam hukum.\n\n### 2. Persyaratan Keabsahan Tanda Tangan Elektronik (Umum)\n\nAgar suatu tanda tangan elektronik dianggap sah dan memiliki kekuatan hukum, **Pasal 59 PP 71 Tahun 2019** mengatur beberapa persyaratan utama:\n\n1.  **Data Pembuatan Tanda Tangan Elektronik terkait hanya pada Penanda Tangan.**\n2.  **Data Pembuatan Tanda Tangan Elektronik pada saat proses penandatanganan elektronik berada dalam kendali Penanda Tangan.** Ini menunjukkan bahwa penanda tangan memiliki kontrol eksklusif atas data yang digunakan untuk menciptakan tanda tangan.\n3.  **Setiap perubahan terhadap Tanda Tangan Elektronik yang terjadi setelah waktu penandatanganan dapat diketahui.**\n4.  **Setiap perubahan terhadap Informasi Elektronik yang terkait dengan Tanda Tangan Elektronik setelah waktu penandatanganan dapat diketahui.** Poin ini menjamin integritas dokumen yang ditandatangani.\n5.  **Terdapat cara tertentu untuk mengidentifikasi Penanda Tangan.**\n6.  **Terdapat cara tertentu untuk menunjukkan bahwa Penanda Tangan telah memberikan persetujuan terhadap Informasi Elektronik yang terkait.** Ini memastikan adanya niat dan persetujuan dari penanda tangan.\n\n### 3. Jenis Tanda Tangan Elektronik dan Perbedaannya\n\nPP 71 Tahun 2019 membedakan tanda tangan elektronik menjadi dua jenis utama, yang memiliki implikasi terhadap kekuatan pembuktiannya:\n\n#### a. Tanda Tangan Elektronik Sederhana\n\n*   **Karakteristik:** Tidak menggunakan sertifikat elektronik atau infrastruktur khusus dari Penyelenggara Sertifikasi Elektronik (PSrE).\n*   **Contoh:** Tanda tangan yang dihasilkan dari email, \"klik\" setuju pada suatu halaman web, PIN, kode OTP (One Time Password), atau gambar tanda tangan yang ditempelkan pada dokumen elektronik tanpa pengaman kriptografi.\n*   **Kekuatan Hukum:** Diakui secara hukum, namun jika terjadi sengketa, beban pembuktiannya mungkin lebih tinggi. Pihak yang menggunakan tanda tangan sederhana perlu memberikan bukti tambahan bahwa persyaratan keabsahan (Pasal 59 PP 71/2019) telah terpenuhi.\n\n#### b. Tanda Tangan Elektronik Tersertifikasi (atau Tanda Tangan Digital)\n\n*   **Karakteristik:** Dibuat menggunakan sertifikat elektronik yang dikeluarkan oleh **Penyelenggara Sertifikasi Elektronik (PSrE)** Indonesia yang telah terdaftar dan diakui oleh Kementerian Komunikasi dan Informatika. Sertifikat elektronik ini berfungsi untuk membuktikan keaslian identitas penanda tangan dan integritas dokumen.\n*   **Dasar Hukum:** Pasal 60 PP 71 Tahun 2019 menyatakan bahwa Tanda Tangan Elektronik Tersertifikasi yang memenuhi persyaratan PSrE memiliki kekuatan hukum dan akibat hukum yang lebih kuat.\n*   **Peran PSrE:** PSrE adalah badan hukum yang menyelenggarakan layanan sertifikasi elektronik dan memiliki tugas penting dalam menerbitkan, mengelola, dan mencabut sertifikat elektronik. Mereka memastikan identitas penanda tangan dan keamanan tanda tangan melalui teknologi kriptografi.\n*   **Kekuatan Hukum:** Tanda Tangan Elektronik Tersertifikasi memiliki **kekuatan pembuktian yang sempurna** dan mengikat, kecuali dapat dibuktikan sebaliknya. Artinya, tanda tangan ini secara otomatis dianggap sah dan autentik, sehingga sangat sulit untuk disangkal (non-repudiation).\n\n### 4. Penyelenggara Sertifikasi Elektronik (PSrE)\n\n*   **Regulasi (Pasal 63-71 PP 71/2019):** PSrE memiliki peran sentral dalam memastikan keamanan dan keabsahan tanda tangan elektronik tersertifikasi. Mereka harus memenuhi standar teknis dan operasional yang ditetapkan oleh pemerintah dan wajib terdaftar di Kementerian Kominfo.\n*   **Layanan PSrE:** Meliputi penerbitan sertifikat elektronik, pengelolaan direktori sertifikat, layanan stempel waktu (timestamp), hingga pencabutan sertifikat.\n\n### Kesimpulan\n\nUU ITE dan PP 71/2019 telah menciptakan kerangka hukum yang kokoh untuk penggunaan tanda tangan elektronik di Indonesia. Meskipun tanda tangan elektronik sederhana memiliki kekuatan hukum, penggunaan **tanda tangan elektronik tersertifikasi** sangat dianjurkan untuk transaksi atau dokumen penting karena memiliki jaminan keaslian, integritas, dan kekuatan pembuktian yang lebih tinggi, didukung oleh infrastruktur PSrE yang terpercaya. Hal ini bertujuan untuk mendorong transformasi digital yang aman, sah, dan dapat dipertanggungjawabkan."
+    },
+    "metode_rag": {
+      "waktu_eksekusi_detik": 2.763,
+      "jumlah_token_konteks": 293,
+      "sumber_retrieval": [
+        {
+          "pasal": "Pasal 27B",
+          "similarity": 0.6723486222423347
+        },
+        {
+          "pasal": "Pasal 28",
+          "similarity": 0.6660859065862234
+        },
+        {
+          "pasal": "Pasal 27A",
+          "similarity": 0.6656959138251693
+        }
+      ],
+      "pasal_terdeteksi": [],
+      "is_correct": true,
+      "is_hallucination": false,
+      "jawaban": "Informasi tersebut tidak ditemukan pada dokumen hukum yang tersedia."
+    }
+  }
+]
